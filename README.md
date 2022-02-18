@@ -11,7 +11,7 @@
 -Middlewares</br>
 -Exceptions</br>
 
-#Conforme o desenvolvido do projeto sera incluso 
+# Conforme o desenvolvido do projeto sera incluso 
 -Fluent Validation</br>
 -Auto Mapper</br>
 -Servicos externos</br>
