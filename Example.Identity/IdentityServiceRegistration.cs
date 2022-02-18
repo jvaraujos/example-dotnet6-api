@@ -19,7 +19,7 @@ namespace Example.Identity
     {
         public static void AddIdentityServices(this IServiceCollection services, IConfiguration configuration)
         {
-            string connectionString = configuration.GetConnectionString("PomarContext");
+            string connectionString = configuration.GetConnectionString("ExampleContext");
             var jwtSettings = new JwtSettings();
             configuration.Bind("JwtSettings", jwtSettings);
             SigningKeyConfiguration signinKeyConfiguration = new SigningKeyConfiguration(jwtSettings.SecretKey);

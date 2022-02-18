@@ -9,7 +9,7 @@ namespace Example.Api.Bootstrapper
     {
         public static void ConfigHelthCheck(this IServiceCollection services, IConfiguration configuration)
         {
-            var connectionString = configuration.GetConnectionString("PomarContext");
+            var connectionString = configuration.GetConnectionString("ExampleContext");
             services.AddHealthChecks()
                 .AddSqlServer(connectionString, name: "DataBaseSQL");
         }

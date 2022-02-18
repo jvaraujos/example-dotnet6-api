@@ -10,9 +10,9 @@ namespace Example.Api.Bootstrapper
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
-                    Title = "Pomar API",
+                    Title = "Example API",
                     Version = "v1",
-                    Description = "API Pomar #CampoFGN",
+                    Description = "API Example",
                 });
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {
@@ -49,7 +49,7 @@ namespace Example.Api.Bootstrapper
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Pomar API");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Example API");
                 c.RoutePrefix = "admin/Swagger";
             });
         }
