@@ -18,3 +18,5 @@
 -Intergracoes com api externas</br>
 -UI</br>
 -Cobertura de Testes unitarios e de integracoes</br>
+-Integracoes com Clouds (AWS/AZURE)
+-Logger
