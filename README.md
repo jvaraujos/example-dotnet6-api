@@ -1,4 +1,4 @@
-# API .NET 6 utitilizando padroes 
+# API .NET 6
 CQRS
 EF Core
 Swagger
