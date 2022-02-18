@@ -16,7 +16,7 @@
 -Auto Mapper</br>
 -Servicos externos</br>
 -Intergracoes com api externas</br>
--UI</br>
+-UI provavelmente contemplada em blazor , pois prefiro separar o projeto caso utilizado o React/React Native</br>
 -Cobertura de Testes unitarios e de integracoes</br>
 -Integracoes com Clouds (AWS/AZURE)</br>
 -Logger com loki para metricas</br>
