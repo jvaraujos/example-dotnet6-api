@@ -20,3 +20,6 @@
 -Cobertura de Testes unitarios e de integracoes</br>
 -Integracoes com Clouds (AWS/AZURE)</br>
 -Logger com loki para metricas</br>
+
+Update-database -context ExampleIdentityDbContext para contexto de identidade</br>
+Update-database -cotnext IdentityDbContext para o contexto da aplicacao</br>
